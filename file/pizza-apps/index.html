@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Apps</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/style.css">
+  </head>
+  <body>
+    <header>
+      <button class="button-drawer" id="buttonDrawer">☰</button>
+      <img class="brand" src="assets/images/logo.png" alt="Pizza Apps Logo">
+      <nav id="drawer" class="drawer">
+        <ul class="navigations">
+          <li class="navigation-item active"><a href="#">Menu / Order Online</a></li>
+          <li class="navigation-item"><a href="#">Tentang Kami</a></li>
+          <li class="navigation-item"><a href="#">Pesanan</a></li>
+          <li class="navigation-item"><a href="#">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="pizza-container">
+        <h2 class="main-title">Pizza</h2>
+        <div class="pizzas">
+          <article class="pizza-item">
+            <div class="pizza-content">
+              <img class="pizza-image" src="assets/images/pizza-margherita.jpg" alt="Pizza Margherita">
+              <div class="pizza-info">
+                <h3 class="pizza-info__title">Margherita</h3>
+                <p class="pizza-info__topping">Keju</p>
+                <p class="pizza-info__price">Rp. 101.000</p>
+              </div>
+            </div>
+            <button class="pizza-order-button">Pesan Sekarang</button>
+          </article>
+          <article class="pizza-item">
+            <div class="pizza-content">
+              <img class="pizza-image" src="assets/images/pizza-pepperoni.jpg" alt="Pizza Margherita">
+              <div class="pizza-info">
+                <h3 class="pizza-info__title">Pepperoni</h3>
+                <p class="pizza-info__topping">Keju, Pepperoni</p>
+                <p class="pizza-info__price">Rp. 135.000</p>
+              </div>
+            </div>
+            <button class="pizza-order-button">Pesan Sekarang</button>
+          </article>
+          <article class="pizza-item">
+            <div class="pizza-content">
+              <img class="pizza-image" src="assets/images/pizza-capricciosa.jpg" alt="Pizza Margherita">
+              <div class="pizza-info">
+                <h3 class="pizza-info__title">Capricciosa</h3>
+                <p class="pizza-info__topping">Keju, Daging, Jamur</p>
+                <p class="pizza-info__price">Rp. 101.000</p>
+              </div>
+            </div>
+            <button class="pizza-order-button">Pesan Sekarang</button>
+          </article>
+          <article class="pizza-item">
+            <div class="pizza-content">
+              <img class="pizza-image" src="assets/images/pizza-margherita.jpg" alt="Pizza Margherita">
+              <div class="pizza-info">
+                <h3 class="pizza-info__title">Margherita</h3>
+                <p class="pizza-info__topping">Keju</p>
+                <p class="pizza-info__price">Rp. 101.000</p>
+              </div>
+            </div>
+            <button class="pizza-order-button">Pesan Sekarang</button>
+          </article>
+          <article class="pizza-item">
+            <div class="pizza-content">
+              <img class="pizza-image" src="assets/images/pizza-pepperoni.jpg" alt="Pizza Margherita">
+              <div class="pizza-info">
+                <h3 class="pizza-info__title">Pepperoni</h3>
+                <p class="pizza-info__topping">Keju, Pepperoni</p>
+                <p class="pizza-info__price">Rp. 135.000</p>
+              </div>
+            </div>
+            <button class="pizza-order-button">Pesan Sekarang</button>
+          </article>
+          <article class="pizza-item">
+            <div class="pizza-content">
+              <img class="pizza-image" src="assets/images/pizza-capricciosa.jpg" alt="Pizza Margherita">
+              <div class="pizza-info">
+                <h3 class="pizza-info__title">Capricciosa</h3>
+                <p class="pizza-info__topping">Keju, Daging, Jamur</p>
+                <p class="pizza-info__price">Rp. 101.000</p>
+              </div>
+            </div>
+            <button class="pizza-order-button">Pesan Sekarang</button>
+          </article>
+        </div>
+      </section>
+      <aside class="cart-container">
+        <div class="cart">
+          <div class="cart-content">
+            <h3>Pesanan Anda</h3>
+            <img src="assets/images/cart.jpg" alt="Cart Logo">
+            <p>Keranjang kosong.<br> Tambahkan produk.</p>
+            <div class="cart-info">
+              <p class="cart-info-item">
+                <span class="cart-info-item_key">Total Harga</span>
+                <span class="cart-info-item_value">Rp. 0.00</span>
+              </p>
+              <p class="cart-info-item">
+                <span class="cart-info-item_key">Ongkos Kirim</span>
+                <span class="cart-info-item_value">Free</span>
+              </p>
+            </div>
+          </div>
+          <button class="cart-order-button">Buat Pesanan</button>
+        </div>
+      </aside>
+    </main>
+    <script src="/assets/scripts/script.js"></script>
+  </body>
+</html>
